@@ -1,0 +1,9 @@
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\bin\Debug\netstandard2.0\ScheepvaartCL.deps.json
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\bin\Debug\netstandard2.0\ScheepvaartCL.dll
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\bin\Debug\netstandard2.0\ScheepvaartCL.pdb
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\obj\Debug\netstandard2.0\ScheepvaartCL.csprojAssemblyReference.cache
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\obj\Debug\netstandard2.0\ScheepvaartCL.AssemblyInfoInputs.cache
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\obj\Debug\netstandard2.0\ScheepvaartCL.AssemblyInfo.cs
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\obj\Debug\netstandard2.0\ScheepvaartCL.csproj.CoreCompileInputs.cache
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\obj\Debug\netstandard2.0\ScheepvaartCL.dll
+C:\Users\server\Desktop\HOGENT\GithubHogent\PRG-Gevorderd\Programmeren-gevorderd\Opdracht_scheepvaart\Scheepvaart\ScheepvaartCL\obj\Debug\netstandard2.0\ScheepvaartCL.pdb

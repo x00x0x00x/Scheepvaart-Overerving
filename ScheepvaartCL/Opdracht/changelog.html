@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Changelog</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .dateCol {
+            width:20%; max-width:20%;
+        }
+    </style>
+</head>
+<body>
+    <h3>Changelog</h3>
+    <table style="width:100%">
+        <tr>
+            <th class="dateCol">Datum</th>
+            <th>Beschrijving</th>
+        </tr>
+        <tr>
+            <td>18/03</td>
+            <td>Aanmaken van klasses en enums voor Gas en Vloeistof (gebruik door olietanker en gastanker).</td>
+        </tr>
+        <tr>
+            <td>19/03</td>
+            <td>Aanmaken van klasse validations, eerste basis functionaliteiten. Overgeschakeld naar .NET 5.0 / standard 2.1</td>
+        </tr>
+        <tr>
+            <td>20/03</td>
+            <td>Aanmaken van klasse Writer met methode lijnsegment en enkele properties. Toevoegen methode OverzichtHavensAlfabetisch.</td>
+        </tr>
+        <tr>
+            <td>22/03</td>
+            <td>Toevoegen van resterende overzichtsmethodes aan de Rederij. Alles uittesten door middel van de console applicatie.<br />Linq voor reversed dictionary + .ToString decimal formatting met kommas voor cargowaarde.</td>
+        </tr>
+        <tr>
+            <td>23/03</td>
+            <td>Opsplitsen overzichtmethodes in Rederij naar nieuwe klasse welke instaat voor het genereren van overzichten.</td>
+        </tr>
+    </table>
+
+    <h3>Introspectie</h3>
+    <table style="width:100%">
+        <tr>
+            <th class="dateCol">Datum</th>
+            <th>Beschrijving</th>
+        </tr>
+        <tr>
+            <td>18/03</td>
+            <td>Er heerste enige verwarring tussen een abstracte klasse en een interface, opgehelderd door te herhalen dat een abstracte klasse een model vormt voor de overervende klassen welke de functionaliteit ervan uitbreiden om deze instantieerbaar te maken. Een interface wordt op een bredere manier gebruikt om een contract op gewenste functionaliteit te leggen, er wordt niet uitgebreid. <br /><br />→ Kan er in het geval van unittesting afgeweken worden van de "niet-instantieerbare" eigenschap van de abstracte klasse -- om de klasse op zichzelf te testen los van zijn uitgewerkte overervers?<br /><br />^ Dit is niet perse vereist, de overervende klasse kan uitgetest worden om die methodes te valideren.<br /><br />Voor het passagierschip is gekozen om een constructor te gebruiken, anders moeten de velden 1 per 1 een waarde toegekend worden dmv de property setter.<br /><br />Daar er in meerdere bestanden gebruik gemaakt wordt van waarden om argumenten te valideren, kunnen deze afgezonderd worden in hun eigen klasse.<br /><br />In eerste instantie werd <b>Traject</b> ondergebracht bij de constructor van <b>Passagierschip</b>, bij nader inzien is het ter validatie gewenst dit onder te brengen onder <b>Cruiseschip</b> en <b>Veerboot</b> welke validaties kunnen toepassen ivm lengte van de lijst.<br /><br />De voeg-toe methodes maken eerst gebruik van de verwijder methode, geen idee of dit bad practice is maar het voorkomt het opnieuw schrijven van de check welke al toegepast wordt in de verwijder methode.</td>
+        </tr>
+        <tr>
+            <td>19/03</td>
+            <td>Bij nader inzien de voeg-toe methode mbt schip/vloot niet langer gebruik laten maken van de verwijdermethode maar een aparte check aangezien dit zou kunnen leiden tot null referenties bij bestaande schepen welke reeds toegekend zijn aan die vloot. </td>
+        </tr>
+        <tr>
+            <td>22/03</td>
+            <td>De overzichtsmethodes toegevoegd aan de rederij verdienen hun eigen klasse 'Overzicht' welke de objecten met zich meekrijgt (de rederij wordt nogal langdradig). Alternatief methode toewijzen aan enkele klasses die met this werkt. Als volgt rest het aanmaken van alle verschillende soorten schepen en testen van functionaliteiten. </td>
+        </tr>
+        <tr>
+            <td>23/03</td>
+            <td>De klasse Overzicht aangemaakt welke een rederij meekrijgt als argument om overzichten te genereren.</td>
+        </tr>
+    </table>
+
+    <h4 style="font-weight:400">Benjamin Van Renterghem - Groep 1A</h4>
+</body>
+</html>

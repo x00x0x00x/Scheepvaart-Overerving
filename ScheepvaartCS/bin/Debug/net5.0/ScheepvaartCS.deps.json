@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ScheepvaartCS/1.0.0": {
+        "dependencies": {
+          "ScheepvaartCL": "1.0.0"
+        },
+        "runtime": {
+          "ScheepvaartCS.dll": {}
+        }
+      },
+      "ScheepvaartCL/1.0.0": {
+        "runtime": {
+          "ScheepvaartCL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ScheepvaartCS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ScheepvaartCL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
